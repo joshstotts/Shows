@@ -4,20 +4,19 @@ import "../App.css";
 
 function Nav() {
   return (
-    <div>
-      <nav className="nav-wrapper black">
-        <Link to="/">
+    <div >
+      <nav className="nav-fixed black ">
+        <Link to="/movies">
           <div className="brand-logo white-text">Watch List</div>
         </Link>
         <Link to="/add">
-          <div className="btn-floating btn-large right green"><i className="material-icons">add</i></div>
+          <div id="myMovies" className="btn-floating btn-large right white">
+            add
+          </div>
         </Link>
         {/* <Link>
-                <p>Previously Watched</p>
-            </Link>
-            <Link>
-                <p>Add Movie</p>
-            </Link> */}
+          <div className="right" >Previously Watched</div>
+        </Link> */}
       </nav>
     </div>
   );

@@ -1,1 +1,55 @@
+.card {
+    height: 100px;
+    width: 200px;
+    
+}
+#cardSize {
+    height: 90px;
+    box-shadow: -2px 2px 2px 2px rgb(0, 0, 0);
+}
+.movie {
+    font-size: 15px;
+    padding: -10px;
+}
+#poster {
+    height: 180px;
+    width: 130px;
+}
+#line {
+    display: inline-block;
+    margin: 0 auto;
+}
+#detail {
+    padding: 0;
+}
+#link {
+    color: black;
+}
+body {
+    /* background-color: rgb(201, 201, 201); */
+    background-color: rgb(255, 241, 220);
+}
+#allMovies {
+    display: block;
+    text-align: center;
+}
+#addButton {
+    border-radius: 100px;
+}
+form {
+    padding-bottom: 30px;
+}
+#input {
+    background-color: white;
+    border-radius: 100px;
+    text-align: center;
+    margin-top: 30px;
+}
+#myMovies {
+    color: black;
+    
+}
+#home-pic {
+    height: cover;
+}
 
