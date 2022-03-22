@@ -25,7 +25,7 @@ function Add({ movies }) {
     
     event.preventDefault();
     const newMovie = {...newForm}
-    fetch("https://shows-backjps.herokuapp.com/movies", {
+    fetch("https://shows-backjps.herokuapp.com/", {
       method: "POST",
       headers: {
         "Content-Type": "Application/json",
