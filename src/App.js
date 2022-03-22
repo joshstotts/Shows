@@ -12,7 +12,7 @@ function App() {
   // put useState
   // function Main(props) {
     const [ movies, setMovies ] = useState(null);
-    const URL = "http://localhost:4000/movies";
+    const URL = "https://shows-backjps.herokuapp.com/movies";
     console.log(movies);
     
     const getMovies = async () => {
